@@ -1,25 +1,23 @@
 <?php
 
-namespace App\Http\Controllers\Homes;
+namespace App\Http\Controllers\Home;
 
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\models\post;
+use App\models\classm;
 
-class PlateController extends Controller
+class ClassmController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function list($id)
+    public function index()
     {
-        $res = post::where('bid',$id)->get();
-        
-        return view('homes/list',compact('res'));
+        //
     }
 
     /**
@@ -49,9 +47,11 @@ class PlateController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function list($id)
     {
-        //
+        $res = classm::where('id',$id)->get();
+        
+        return view('home/class',compact('res'));
     }
 
     /**

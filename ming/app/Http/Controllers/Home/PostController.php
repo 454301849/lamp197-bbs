@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Homes;
+namespace App\Http\Controllers\Home;
 
 use Illuminate\Http\Request;
 
@@ -18,7 +18,7 @@ class PostController extends Controller
     public function show($id)
     {
         $res = post::where('id',$id)->get();
-        return view('homes/show',compact('res'));
+        return view('home/show',compact('res'));
     }
 
     

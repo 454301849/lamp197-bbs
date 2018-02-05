@@ -1,22 +1,25 @@
 <?php
 
-namespace App\Http\Controllers\Homes;
+namespace App\Http\Controllers\Home;
 
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\models\post;
 
-class PostingController extends Controller
+class PlateController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function list($id)
     {
-        return view('homes/post');
+        $res = post::where('bid',$id)->get();
+        
+        return view('home/list',compact('res'));
     }
 
     /**

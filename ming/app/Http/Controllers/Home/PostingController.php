@@ -1,14 +1,13 @@
 <?php
 
-namespace App\Http\Controllers\Homes;
+namespace App\Http\Controllers\Home;
 
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\models\classm;
 
-class ClassmController extends Controller
+class PostingController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,7 +16,7 @@ class ClassmController extends Controller
      */
     public function index()
     {
-        //
+        return view('home/post');
     }
 
     /**
@@ -47,11 +46,9 @@ class ClassmController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function list($id)
+    public function show($id)
     {
-        $res = classm::where('id',$id)->get();
-        
-        return view('homes/class',compact('res'));
+        //
     }
 
     /**

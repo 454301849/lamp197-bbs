@@ -16,12 +16,12 @@
 // });
   
     //前台根路由
-Route::get('/', 'Homes\IndexController@index');
+Route::get('/', 'Home\IndexController@index');
     //前台帖子详情路由
-Route::get('/post/{id}', 'Homes\PostController@show');
+Route::get('/post/{id}', 'Home\PostController@show');
     //分类表详情
-Route::get('/classm/{id}', 'Homes\ClassmController@list');
+Route::get('/classm/{id}', 'Home\ClassmController@list');
     //板块列表
-Route::get('/plate/{id}', 'Homes\PlateController@list');
+Route::get('/plate/{id}', 'Home\PlateController@list');
     //发帖,这里需要是一个资源路由
-Route::get('/posting', 'Homes\PostingController@index');
+Route::get('/posting', 'Home\PostingController@index');

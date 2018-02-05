@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Homes;
+namespace App\Http\Controllers\Home;
 
 use Illuminate\Http\Request;
 
@@ -18,7 +18,7 @@ class IndexController extends Controller
     public function index()
     {
         $res = post::get();
-        return view('homes/index',compact('res'));
+        return view('home/index',compact('res'));
     }
 
    
