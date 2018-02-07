@@ -443,8 +443,8 @@ li.comment > article .avatar {
 
 .support-widget {
   border: 1px solid #e9e6c4;
-  padding: 10px 100px 10px 20px;
-  background: #fefbdc url("../images/support.png") no-repeat 95% 20px;
+  padding: 10px 10px 10px 20px;
+  /*background: #fefbdc url("../images/support.png") no-repeat 95% 20px;*/
   margin-bottom: 20px;
 }
 .support-widget h3 {

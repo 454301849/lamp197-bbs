@@ -10,18 +10,18 @@
 
                 <title>Knowledge Base Theme</title>
 
-                <link rel="shortcut icon" href="images/favicon.png" />
+                <link rel="shortcut icon" href="/homes/images/favicon.png" />
 
 
                 
 
                 <!-- Style Sheet-->
-                <link rel="stylesheet" href="style.css"/>
-                <link rel='stylesheet' id='bootstrap-css-css'  href='css/bootstrap5152.css?ver=1.0' type='text/css' media='all' />
-                <link rel='stylesheet' id='responsive-css-css'  href='css/responsive5152.css?ver=1.0' type='text/css' media='all' />
-                <link rel='stylesheet' id='pretty-photo-css-css'  href='js/prettyphoto/prettyPhotoaeb9.css?ver=3.1.4' type='text/css' media='all' />
-                <link rel='stylesheet' id='main-css-css'  href='css/main5152.css?ver=1.0' type='text/css' media='all' />
-                <link rel='stylesheet' id='custom-css-css'  href='css/custom5152.html?ver=1.0' type='text/css' media='all' />
+                <link rel="stylesheet" href="/homes/style.css"/>
+                <link rel='stylesheet' id='bootstrap-css-css'  href='/homes/css/bootstrap5152.css?ver=1.0' type='text/css' media='all' />
+                <link rel='stylesheet' id='responsive-css-css'  href='/homes/css/responsive5152.css?ver=1.0' type='text/css' media='all' />
+                <link rel='stylesheet' id='pretty-photo-css-css'  href='/homes/js/prettyphoto/prettyPhotoaeb9.css?ver=3.1.4' type='text/css' media='all' />
+                <link rel='stylesheet' id='main-css-css'  href='/homes/css/main5152.css?ver=1.0' type='text/css' media='all' />
+                <link rel='stylesheet' id='custom-css-css'  href='/homes/css/custom5152.html?ver=1.0' type='text/css' media='all' />
 
 
                 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -42,7 +42,7 @@
                                         <div class="logo-container">
                                                 <!-- Website Logo -->
                                                 <a href="index-2.html"  title="Knowledge Base Theme">
-                                                        <img src="images/logo.png" alt="Knowledge Base Theme">
+                                                        <img src="/homes/images/logo.png" alt="Knowledge Base Theme">
                                                 </a>
                                                 <span class="tag-line">Premium WordPress Theme</span>
                                         </div>
@@ -52,24 +52,24 @@
                                         <nav class="main-nav">
                                                 <div class="menu-top-menu-container">
                                                         <ul id="menu-top-menu" class="clearfix">
-                                                                <li><a href="index-2.html">Home</a></li>
-                                                                <li><a href="home-categories-description.html">Home 2</a></li>
-                                                                <li><a href="home-categories-articles.html">Home 3</a></li>
-                                                                <li><a href="articles-list.html">Articles List</a></li>
-                                                                <li><a href="faq.html">FAQs</a></li>
+                                                                <li><a href="#">Home</a></li>
+                                                                <li><a href="#">Home 2</a></li>
+                                                                <li><a href="#">Home 3</a></li>
+                                                                <li><a href="#">Articles List</a></li>
+                                                                <li><a href="#">FAQs</a></li>
                                                                 <li><a href="#">Skins</a>
                                                                         <ul class="sub-menu">
-                                                                                <li><a href="blue-skin.html">Blue Skin</a></li>
-                                                                                <li><a href="green-skin.html">Green Skin</a></li>
-                                                                                <li><a href="red-skin.html">Red Skin</a></li>
-                                                                                <li><a href="index-2.html">Default Skin</a></li>
+                                                                                <li><a href="#">Blue Skin</a></li>
+                                                                                <li><a href="#">Green Skin</a></li>
+                                                                                <li><a href="#">Red Skin</a></li>
+                                                                                <li><a href="#">Default Skin</a></li>
                                                                         </ul>
                                                                 </li>
                                                                 <li><a href="#">More</a>
                                                                         <ul class="sub-menu">
-                                                                                <li><a href="full-width.html">Full Width</a></li>
-                                                                                <li><a href="elements.html">Elements</a></li>
-                                                                                <li><a href="page.html">Sample Page</a></li>
+                                                                                <li><a href="#">Full Width</a></li>
+                                                                                <li><a href="#">Elements</a></li>
+                                                                                <li><a href="#">Sample Page</a></li>
                                                                         </ul>
                                                                 </li>
                                                                 <li class="current-menu-item"><a href="contact.html">Contact</a></li>
@@ -108,99 +108,45 @@
 
                                                 <article class="type-page hentry clearfix">
                                                         <h1 class="post-title">
-                                                                <a href="#">个人中心</a>
+                                                                <a href="#">我发布的帖子</a>
                                                         </h1>
                                                         <hr>
                                                         
                                                 </article>
 
 
-                                                <form id="contact-form" class="row" action="http://inspirythemes.com/templates/knowledgebase-html/contact_form_handler.php" method="post">
-
-                                                        <div class="span2">
-                                                                <label for="name">名字<span>*</span> </label>
-                                                        </div>
-                                                        <div class="span6">
-                                                                <input type="text" name="name" id="name" class="required input-xlarge" value="" title="* 对不起，您的名称不符合要求，请从新输入" placeholder="请输入您的名字">
-                                                        </div>
-
-                                                        <div class="span2">
-                                                                <label for="age">年龄<span>*</span></label>
-                                                        </div>
-                                                        <div class="span6">
-                                                                <input type="text" name="" id="" class=" required input-xlarge" value="" title="* 对不起，您的年龄不符合标准" placeholder="请输入您的年龄">
-                                                        </div>
-
-                                                        <div class="span2">
-                                                                <label for="sex">性别<span>*</span></label>
-                                                        </div>
-                                                        <div class="span6">
-                                                              <select name="select" id="">
-                                                                        <option value="1">男</option>
-                                                                        <option value="2">女</option>
-                                                              </select>
-
-                                                        </div>
-
-                                                        <div class="span2">
-                                                                <label for="phone">电话<span>*</span></label>
-                                                        </div>
-                                                        <div class="span6">
-                                                                <input type="text" name="phone" id="phone" class="phone required input-xlarge" value="" title="* 请输入正确的电话位数" placeholder="请输入您的手机号">
-                                                        </div>
-
-                                                        <div class="span2">
-                                                                <label for="email">邮箱<span>*</span></label>
-                                                        </div>
-                                                        <div class="span6">
-                                                                <input type="text" name="email" id="email" class="email required input-xlarge" value="" title="* 请输入正确的邮箱" placeholder="请输入您的邮箱">
-                                                        </div>
-
-                                                        <div class="span2">
-                                                                <label for="email">地址<span>*</span></label>
-                                                        </div>
-                                                        <div class="span6">
-                                                                <select name="" id="" style="width:93px">
-                                                                    <option value="">辽宁省</option>
-                                                                </select>
-                                                                <select name="" id="" style="width:93px">
-                                                                    <option value="">朝阳市</option>
-                                                                </select>
-                                                                <select name="" id="" style="width:93px">
-                                                                    <option value="">双塔区</option>
-                                                                </select>
-                                                        </div>
-
-                                                        
-
-                                                        <div class="span2">
-                                                                <label for="image">头像<span>*</span></label>
-                                                        </div>
-                                                        <div class="span6">
-                                                                <div name="imagepic" id="pic" class="image required input-xlarge">
-                                                                    <img src="images/support.png" style="margin:8px">
-
-                                                                </div>  
-                                                                <input type="file" name="image" id="image" class="image required input-xlarge" value="" title="* 请上传合法头像">
-                                                        </div>
-                                                        
-                                                        
-                                                        <div class="span2">
-                                                                <label for="qian">签名<span>*</span> </label>
-                                                        </div>
-                                                        <div class="span6">
-                                                                <textarea name="qian" id="qian" class="required span6" rows="6" title="* 您的签名不符合标准，请重新输入"></textarea>
-                                                        </div>
-
-                                                        <div class="span6 offset2 bm30">
-                                                                <input type="submit" name="submit" value="提交" class="btn btn-inverse">
-                                                                <img src="images/loading.gif" id="contact-loader" alt="Loading...">
-                                                        </div>
-
-                                                        <div class="span6 offset2 error-container"></div>
-                                                        <div class="span8 offset2" id="message-sent"></div>
-
-                                                </form>
+                                                <ul class="articles">
+                                                                        <li class="article-entry standard">
+                                                                                <h4><a href="single.html">帖子标题1</a></h4>
+                                                                                <span class="article-meta">发帖时间 ：2018-01-31<a href="#" title="View all posts in Server &amp; Database"> 点击详情</a></span>
+                                                                                <span class="like-count">66</span>
+                                                                        </li>
+                                                                        <li class="article-entry standard">
+                                                                                <h4><a href="single.html">帖子标题2</a></h4>
+                                                                                <span class="article-meta">发帖时间 ：2018-01-31<a href="#" title="View all posts in Server &amp; Database"> 点击详情</a></span>
+                                                                                <span class="like-count">66</span>
+                                                                        </li>
+                                                                        <li class="article-entry standard">
+                                                                                <h4><a href="single.html">帖子标题3</a></h4>
+                                                                                <span class="article-meta">发帖时间 ：2018-01-31<a href="#" title="View all posts in Server &amp; Database"> 点击详情</a></span>
+                                                                                <span class="like-count">66</span>
+                                                                        </li>
+                                                                        <li class="article-entry standard">
+                                                                                <h4><a href="single.html">帖子标题4</a></h4>
+                                                                                <span class="article-meta">发帖时间 ：2018-01-31<a href="#" title="View all posts in Server &amp; Database"> 点击详情</a></span>
+                                                                                <span class="like-count">66</span>
+                                                                        </li>
+                                                                        <li class="article-entry standard">
+                                                                                <h4><a href="single.html">帖子标题5</a></h4>
+                                                                                <span class="article-meta">发帖时间 ：2018-01-31<a href="#" title="View all posts in Server &amp; Database"> 点击详情</a></span>
+                                                                                <span class="like-count">66</span>
+                                                                        </li>
+                                                                        <li class="article-entry standard">
+                                                                                <h4><a href="single.html">帖子标题6</a></h4>
+                                                                                <span class="article-meta">发帖时间 ：2018-01-31<a href="#" title="View all posts in Server &amp; Database"> 点击详情</a></span>
+                                                                                <span class="like-count">66</span>
+                                                                        </li>
+                                                                </ul>
                                         </div>
                                         <!-- end of page content -->
 
@@ -209,10 +155,16 @@
                                         <aside class="span4 page-sidebar">
 
                                                 <section class="widget">
-                                                        <div class="support-widget">
-                                                                <h3 class="title">用户名</h3>
-                                                                <p class="intro">这是我的个性签名</p>
-                                                                <img src="">
+                                                        <div class="support-widget" style='background-color: #fefbdc;'>
+                                                            
+                                                            <div style="float:left;width:100px;height:100px">
+                                                                 <img src="../homes/images/1.png" alt="" style="display: block;width:100px;height:100px">
+                                                            </div>
+                                                            <div style="float:right;width:200px">
+                                                                <h3 class="title">用户名</h3><span>12</span>
+                                                                <p class="intro" style="word-break: break-all;">sadasdasdsadsad</p>
+                                                            </div>
+                                                            <div style="clear:both;"></div> 
                                                         </div>
                                                 </section>
 
@@ -238,6 +190,10 @@
                                                                 </li>
                                                                 <li class="article-entry image">
                                                                         <h4><a href="">转发</a></h4>
+                                                                        <span></span>
+                                                                </li>
+                                                                <li class="article-entry image">
+                                                                        <h4><a href="">收藏</a></h4>
                                                                         <span></span>
                                                                 </li>
                                                         </ul>
@@ -348,15 +304,16 @@
                 <a href="#top" id="scroll-top"></a>
 
                 <!-- script -->
-                <script type='text/javascript' src='js/jquery-1.8.3.min.js'></script>
-                <script type='text/javascript' src='js/jquery.easing.1.34e44.js?ver=1.3'></script>
-                <script type='text/javascript' src='js/prettyphoto/jquery.prettyPhotoaeb9.js?ver=3.1.4'></script>
-                <script type='text/javascript' src='js/jquery.liveSearchd5f7.js?ver=2.0'></script>
-                <script type='text/javascript' src='js/jflickrfeed.js'></script>
-                <script type='text/javascript' src='js/jquery.formd471.js?ver=3.18'></script>
-                <script type='text/javascript' src='js/jquery.validate.minfc6b.js?ver=1.10.0'></script>
-                <script type='text/javascript' src='js/custom5152.js?ver=1.0'></script>
+                <script type='text/javascript' src='/homes/js/jquery-1.8.3.min.js'></script>
+                <script type='text/javascript' src='/homes/js/jquery.easing.1.34e44.js?ver=1.3'></script>
+                <script type='text/javascript' src='/homes/js/prettyphoto/jquery.prettyPhotoaeb9.js?ver=3.1.4'></script>
+                <script type='text/javascript' src='/homes/js/jquery.liveSearchd5f7.js?ver=2.0'></script>
+                <script type='text/javascript' src='/homes/js/jflickrfeed.js'></script>
+                <script type='text/javascript' src='/homes/js/jquery.formd471.js?ver=3.18'></script>
+                <script type='text/javascript' src='/homes/js/jquery.validate.minfc6b.js?ver=1.10.0'></script>
+                <script type='text/javascript' src='/homes/js/custom5152.js?ver=1.0'></script>
 
         <div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
 </html>
+

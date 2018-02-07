@@ -17,5 +17,10 @@ Route::get('/', function () {
 });
 
 Route::group(['prefix' => 'home'], function(){
+	// 个人中心
 	Route::resource('/geren', 'home\Gerencontroller');
+	// 我回复的帖子消息
+	Route::get('/reply', 'home\Replycontroller@reply');
+	// 我发帖的消息
+	Route::get('/release', 'home\Releasecontroller@release');
 });

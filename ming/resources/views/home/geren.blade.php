@@ -10,7 +10,7 @@
 
                 <title>Knowledge Base Theme</title>
 
-                <link rel="shortcut icon" href="images/favicon.png" />
+                <link rel="shortcut icon" href="/homes/images/favicon.png" />
 
 
                 
@@ -125,6 +125,18 @@
                                                         </div>
 
                                                         <div class="span2">
+                                                                <label for="name">密码<span>*</span> </label>
+                                                        </div>
+                                                        <div class="span6">
+                                                                <input type="text" name="password" id="password" class="required input-xlarge" value="" title="* 对不起，您的密码不符合要求，请从新输入" placeholder="请输入您的密码">
+                                                        </div>
+
+
+
+
+
+
+                                                        <div class="span2">
                                                                 <label for="age">年龄<span>*</span></label>
                                                         </div>
                                                         <div class="span6">
@@ -135,25 +147,12 @@
                                                                 <label for="sex">性别<span>*</span></label>
                                                         </div>
                                                         <div class="span6">
-
-                                                              <!--   <input type="radio" name="sex" id="sex" class="required input-xlarge" value="1"  title="* 请选择您的性别" placeholder="">男
-                                                              <input type="radio" name="sex" id="sex" class="required input-xlarge" value="2"  title="* 请选择您的性别" placeholder="">女
-                                                              <input type="text"> -->
                                                               <select name="select" id="">
                                                                         <option value="1">男</option>
                                                                         <option value="2">女</option>
                                                               </select>
 
                                                         </div>
-
-                                                        <div class="span2">
-                                                                <label for="email">邮箱<span>*</span></label>
-                                                        </div>
-                                                        <div class="span6">
-                                                                <input type="text" name="email" id="email" class="email required input-xlarge" value="" title="* 请输入正确的邮箱" placeholder="请输入您的邮箱">
-                                                        </div>
-
-                                                        
 
                                                         <div class="span2">
                                                                 <label for="phone">电话<span>*</span></label>
@@ -163,12 +162,41 @@
                                                         </div>
 
                                                         <div class="span2">
+                                                                <label for="email">邮箱<span>*</span></label>
+                                                        </div>
+                                                        <div class="span6">
+                                                                <input type="text" name="email" id="email" class="email required input-xlarge" value="" title="* 请输入正确的邮箱" placeholder="请输入您的邮箱">
+                                                        </div>
+
+                                                        <div class="span2">
+                                                                <label for="email">地址<span>*</span></label>
+                                                        </div>
+                                                        <div class="span6">
+                                                                <select name="" id="" style="width:93px">
+                                                                    <option value="">辽宁省</option>
+                                                                </select>
+                                                                <select name="" id="" style="width:93px">
+                                                                    <option value="">朝阳市</option>
+                                                                </select>
+                                                                <select name="" id="" style="width:93px">
+                                                                    <option value="">双塔区</option>
+                                                                </select>
+                                                        </div>
+
+                                                        
+
+                                                        <div class="span2">
                                                                 <label for="image">头像<span>*</span></label>
                                                         </div>
                                                         <div class="span6">
+                                                                <div name="imagepic" id="pic" class="image required input-xlarge">
+                                                                    <img src="/homes/images/1.png" style="margin:8px; width:100px;height:100px;" >
+
+                                                                </div>  
                                                                 <input type="file" name="image" id="image" class="image required input-xlarge" value="" title="* 请上传合法头像">
                                                         </div>
-
+                                                        
+                                                        
                                                         <div class="span2">
                                                                 <label for="qian">签名<span>*</span> </label>
                                                         </div>
@@ -193,10 +221,17 @@
                                         <aside class="span4 page-sidebar">
 
                                                 <section class="widget">
-                                                        <div class="support-widget">
-                                                                <h3 class="title">用户名</h3>
-                                                                <p class="intro">这是我的个性签名</p>
-                                                                <img src="">
+                                                        <div class="support-widget" style='background-color: #fefbdc;'>
+                                                            
+                                                            <div style="float:left;width:100px;height:100px">
+                                                                 <img src="../homes/images/1.png" alt="" style="display: block;width:100px;height:100px">
+                                                            </div>
+                                                            <div style="float:right;width:200px">
+                                                                <h3 class="title">用户名</h3><span>12</span>
+                                                                <p class="intro" style="word-break: break-all;">这是我的签名，这是我的签名，这是我的签名，这是我的签名这是我的</p>
+
+                                                            </div>
+                                                            <div style="clear:both;"></div> 
                                                         </div>
                                                 </section>
 
@@ -224,6 +259,15 @@
                                                                         <h4><a href="">转发</a></h4>
                                                                         <span></span>
                                                                 </li>
+                                                                 <li class="article-entry image">
+                                                                        <h4><a href="">收藏</a></h4>
+                                                                        <span></span>
+                                                                </li>
+                                                                <li class="article-entry image">
+                                                                        <h4><a href="">消息</a></h4>
+                                                                        <span></span>
+                                                                </li>
+
                                                         </ul>
                                                 </section>
 
@@ -336,7 +380,7 @@
                 <script type='text/javascript' src='/homes/js/jquery.easing.1.34e44.js?ver=1.3'></script>
                 <script type='text/javascript' src='/homes/js/prettyphoto/jquery.prettyPhotoaeb9.js?ver=3.1.4'></script>
                 <script type='text/javascript' src='/homes/js/jquery.liveSearchd5f7.js?ver=2.0'></script>
-				<script type='text/javascript' src='/homes/js/jflickrfeed.js'></script>
+                <script type='text/javascript' src='/homes/js/jflickrfeed.js'></script>
                 <script type='text/javascript' src='/homes/js/jquery.formd471.js?ver=3.18'></script>
                 <script type='text/javascript' src='/homes/js/jquery.validate.minfc6b.js?ver=1.10.0'></script>
                 <script type='text/javascript' src='/homes/js/custom5152.js?ver=1.0'></script>
@@ -344,4 +388,3 @@
         <div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
 </html>
-

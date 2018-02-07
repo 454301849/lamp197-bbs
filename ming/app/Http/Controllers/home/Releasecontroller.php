@@ -7,22 +7,16 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-
-use App\Http\Models\geren;
-use App\Http\Models\user_district;
-use App\Http\Models\user_login;
-
-class Gerencontroller extends Controller
+class Releasecontroller extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function release()
     {
-
-        return view('home.geren');
+        return view('home.myrelease');
     }
 
     /**
