@@ -285,7 +285,7 @@
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 处理方案
                             </a>
                         </li>
-                    </ul>
+                    </ul> 
                 </li>
                 <li class="sidebar-nav-link">
                     <a href="{{url('admin/login')}}">
@@ -303,8 +303,6 @@
     <script src="{{ asset('admins/js/app.js') }}"></script>
 
 @yield('content')
-
-    
 
 </body>
 
