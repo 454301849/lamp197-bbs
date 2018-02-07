@@ -11,6 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+
+
+//设置路由前缀
+Route::group(['prefix' => 'admin'], function () {
+	//设置后台主页
+	Route::get('/', 'admin\indexController@index');
+	//设置后台用户资源路由
+    Route::resource('/user_admin' ,'admin\User_AdminController');
+    //设置前台用户资源路由
+    Route::resource('/user' ,'admin\UserController');
 });
